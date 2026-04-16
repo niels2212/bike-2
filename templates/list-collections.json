@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collections",
+        "description": "Explore top-quality tech across all collections, crafted for performance and style.",
+        "collections_per_row": 3,
+        "columns_mobile": "1",
+        "sort": "products_high",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_desc": false,
+        "alt_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "xl"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

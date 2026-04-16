@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "slide_MttKjY": {
+          "type": "slide",
+          "settings": {
+            "featured_post": "",
+            "color_scheme": "background-3",
+            "overwrite_image": "",
+            "overlay_opacity": 20
+          }
+        },
+        "slide_kjnwtx": {
+          "type": "slide",
+          "settings": {
+            "featured_post": "",
+            "color_scheme": "background-3",
+            "overwrite_image": "",
+            "overlay_opacity": 20
+          }
+        },
+        "slide_gbMTy4": {
+          "type": "slide",
+          "settings": {
+            "featured_post": "",
+            "color_scheme": "background-3",
+            "overwrite_image": "",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_MttKjY",
+        "slide_kjnwtx",
+        "slide_gbMTy4"
+      ],
+      "settings": {
+        "posts_per_page": 6,
+        "posts_per_row": 3,
+        "show_tag_filter": true,
+        "label_tag_filter": "Filter by tag:",
+        "alignment_tag_filter": "left",
+        "desktop_slider_aspect_ratio": "16/9",
+        "mobile_slider_aspect_ratio": "3/4",
+        "featured_show_date": false,
+        "featured_show_tags": false,
+        "featured_show_author": false,
+        "featured_show_excerpt": true,
+        "featured_content_align": "bottom",
+        "enable_autoplay": true,
+        "slide_duration": 5,
+        "show_image": true,
+        "aspect_ratio": "square",
+        "object_fit": "cover",
+        "article_heading_font_family": "heading",
+        "article_heading_font_size": "h4",
+        "show_date": false,
+        "show_tags": true,
+        "show_author": false,
+        "show_excerpt": true,
+        "show_read_article_button": true,
+        "read_article_button_label": "",
+        "show_comments_count": false,
+        "padding_top": "no-indent",
+        "padding_bottom": "xl"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

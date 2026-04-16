@@ -1,0 +1,583 @@
+{
+	"sections": {
+		"slideshow": {
+			"type": "slideshow",
+			"blocks": {
+				"block_1": {
+					"type": "slide",
+					"settings": {
+						"color_scheme": "",
+						"image": "",
+						"overlay_opacity": 20,
+						"show_video": false,
+						"subheading": "",
+						"heading": "Windproof & Water-Resistant Jackets",
+						"heading_size": "h2",
+						"description": "Clothing that offers strength, flexibility, and style — empowering you to conquer every challenge.",
+						"show_button_1": true,
+						"button_style_1": "primary",
+						"button_label_1": "Shop now",
+						"button_link_1": "",
+						"button_arrow_1": true,
+						"show_button_2": true,
+						"button_style_2": "primary",
+						"button_label_2": "Explore sale",
+						"button_link_2": "",
+						"button_arrow_2": true
+					}
+				},
+				"block_2": {
+					"type": "slide",
+					"settings": {
+						"color_scheme": "",
+						"image": "",
+						"overlay_opacity": 20,
+						"show_video": false,
+						"subheading": "",
+						"heading": "UV Protection and Quick-Dry Technology",
+						"heading_size": "h2",
+						"description": "Look sharp, feel unstoppable. Athletic apparel that gives you the edge to push boundaries and redefine your limits.",
+						"show_button_1": true,
+						"button_style_1": "primary",
+						"button_label_1": "Shop now",
+						"button_link_1": "",
+						"button_arrow_1": true,
+						"show_button_2": true,
+						"button_style_2": "primary",
+						"button_label_2": "Explore sale",
+						"button_link_2": "",
+						"button_arrow_2": true
+					}
+				},
+				"block_3": {
+					"type": "slide",
+					"settings": {
+						"color_scheme": "",
+						"image": "",
+						"overlay_opacity": 30,
+						"show_video": false,
+						"subheading": "",
+						"heading": "Functional and Comfortable Riding Wear",
+						"heading_size": "h2",
+						"description": "Fuel your passion with sportswear built to perform. Gear that lets you focus on reaching new heights.",
+						"show_button_1": true,
+						"button_style_1": "primary",
+						"button_label_1": "Shop now",
+						"button_link_1": "",
+						"button_arrow_1": true,
+						"show_button_2": true,
+						"button_style_2": "primary",
+						"button_label_2": "Explore sale",
+						"button_link_2": "",
+						"button_arrow_2": true
+					}
+				}
+			},
+			"block_order": ["block_1", "block_2", "block_3"],
+			"settings": {
+				"layout": "overlay",
+				"full_width": true,
+				"header_overlay": false,
+				"color_scheme": "",
+				"image_ratio_mobile": "full_height",
+				"image_ratio_desktop": "full_height",
+				"align_content": "center",
+				"display_order": "content_first",
+				"enable_loop": true,
+				"enable_parallax": false,
+				"enable_pagination": true,
+				"enable_autoplay": true,
+				"slide_duration": 5,
+				"animation_type": "slide",
+				"controls_position": "bottom_center",
+				"enable_explore": false,
+				"explore_label": "Scroll to explore",
+				"explore_position": "bottom_right",
+				"padding_top": "no-indent",
+				"padding_bottom": "no-indent",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"products-tabs": {
+			"type": "products-tabs",
+			"blocks": {
+				"tab_1": {
+					"type": "tab",
+					"settings": {
+						"tab_label": "New",
+						"product_list": []
+					}
+				},
+				"tab_2": {
+					"type": "tab",
+					"settings": {
+						"tab_label": "Sale",
+						"product_list": []
+					}
+				},
+				"tab_3": {
+					"type": "tab",
+					"settings": {
+						"tab_label": "In stock",
+						"product_list": []
+					}
+				}
+			},
+			"block_order": ["tab_1", "tab_2", "tab_3"],
+			"settings": {
+				"color_scheme": "background-1",
+				"animate_on_scroll": true,
+				"heading": "featured products",
+				"heading_size": "h3",
+				"cards_layout": "bar",
+				"mobile_cards_layout": "slider",
+				"mobile_slider_layout_type": "visible_overflow",
+				"products_to_show": 4,
+				"gap": "small",
+				"image_ratio": "portrait",
+				"image_fit": "cover",
+				"show_secondary_image": true,
+				"show_vendor": false,
+				"show_desc": false,
+				"button_show": true,
+				"button_label": "Shop all",
+				"button_style": "primary",
+				"button_link": "",
+				"button_arrow": true,
+				"padding_top": "xl",
+				"padding_bottom": "xl",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"collections-list": {
+			"type": "collections-list",
+			"blocks": {
+				"block_1": {
+					"type": "collection_item",
+					"settings": {
+						"collection": "",
+						"title": "Jerseys"
+					}
+				},
+				"block_2": {
+					"type": "collection_item",
+					"settings": {
+						"collection": "",
+						"title": "bibs"
+					}
+				},
+				"block_3": {
+					"type": "collection_item",
+					"settings": {
+						"collection": "",
+						"title": "off-race"
+					}
+				}
+			},
+			"block_order": ["block_1", "block_2", "block_3"],
+			"settings": {
+				"color_scheme": "",
+				"layout_type": "one_image",
+				"mobile_slider_layout_type": "visible_overflow",
+				"animate_on_scroll": true,
+				"subheading": "collections",
+				"heading": "Weather-Resistant Apparel for Riders",
+				"heading_size": "h3",
+				"description": "",
+				"text_align": "center",
+				"show_products_count": true,
+				"aspect_ratio": "landscape",
+				"object_fit": "cover",
+				"collections_titles_size": "h1",
+				"padding_top": "no-indent",
+				"padding_bottom": "l",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"media-banner": {
+			"type": "media-banner",
+			"settings": {
+				"header_overlay": false,
+				"color_scheme": "",
+				"animate_on_scroll": true,
+				"image_1": "",
+				"image_2": "",
+				"show_video": false,
+				"image_ratio_mobile": "full_height",
+				"image_ratio_desktop": "16/9",
+				"overlay_opacity": 50,
+				"overlay_as_gradient": true,
+				"section_heading": "",
+				"section_heading_size": "h0",
+				"subheading": "",
+				"heading": "Essentials for Every Workout",
+				"heading_size": "h2",
+				"description": "Outfit yourself with versatile, high-quality gear designed to meet the demands of any workout.",
+				"description_width": "recommended",
+				"content_align": "bottom",
+				"content_layout": "column",
+				"show_button": true,
+				"button_label": "Shop now",
+				"button_style": "primary",
+				"button_link": "",
+				"button_arrow": true,
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"product_card_slider_jLRReU": {
+			"type": "product-card-slider",
+			"settings": {
+				"color_scheme": "",
+				"subheading": "",
+				"heading": "",
+				"heading_size": "h3",
+				"description": "",
+				"heading_text_align": "center",
+				"section_layout_type": "cards",
+				"gap": "small",
+				"content_order": "text",
+				"full_width": false,
+				"animate_on_scroll": true,
+				"layer_color_scheme": "",
+				"content_subheading": "DESIGNED WITH ADVENTUROUS CYCLISTS IN MIND",
+				"content_heading": "Best for \nRocky Roads",
+				"content_heading_size": "h2",
+				"content_description": "",
+				"show_button": true,
+				"button_label": "Shop now",
+				"button_link": "",
+				"button_style": "primary",
+				"button_arrow": true,
+				"horizontal_align": "left",
+				"vertical_align": "space-between",
+				"image": "",
+				"image_ratio_desktop": "16/9",
+				"overlay_opacity": 20,
+				"overlay_as_gradient": true,
+				"product_list_heading": "Performance-driven apparel",
+				"product_list": [],
+				"product_color_scheme": "background-1",
+				"products_vertical_align": "end",
+				"card_image_ratio": "portrait",
+				"card_image_fit": "cover",
+				"enable_autoplay": false,
+				"slide_duration": 3,
+				"padding_top": "l",
+				"padding_bottom": "l",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"ticker-banner": {
+			"type": "ticker-banner",
+			"blocks": {
+				"block_1": {
+					"type": "image_block",
+					"settings": {
+						"image": "",
+						"object_fit": "cover"
+					}
+				}
+			},
+			"block_order": ["block_1"],
+			"settings": {
+				"color_scheme": "",
+				"animate_on_scroll": true,
+				"subtitle": "who we are",
+				"text": "Committed to quality and innovation, we’re a brand that empowers every journey.",
+				"background_image": "",
+				"background_image_overlay_opacity": 70,
+				"overlay_as_gradient": true,
+				"aspect_ratio_mobile": "adapt",
+				"aspect_ratio_desktop": "adapt",
+				"object_fit": "cover",
+				"blocks_aspect_ratio": "square",
+				"ticker_text": "designed for riders",
+				"ticker_speed": 90,
+				"ticker_color": "#ffffff",
+				"ticker_color_dm": "#ffffff",
+				"ticker_position": "center",
+				"show_button": true,
+				"button_label": "About Us",
+				"button_link": "",
+				"button_style": "primary",
+				"button_arrow": true,
+				"show_button_2": false,
+				"button_label_2": "Button label",
+				"button_link_2": "",
+				"button_style_2": "secondary",
+				"button_arrow_2": true,
+				"padding_top": "xl",
+				"padding_bottom": "xl",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"countdown_Qh4mCy": {
+			"type": "countdown",
+			"settings": {
+				"color_scheme": "",
+				"content_color_scheme": "",
+				"gap": "small",
+				"content_order": "countdown",
+				"animate_on_scroll": true,
+				"date_picker": "2025-02-01",
+				"time_picker": "00:00",
+				"countdown_block_font": "medium",
+				"completed_countdown": "show_text",
+				"countdown_heading": "Text after countdown has ended",
+				"subheading": "",
+				"heading": "Limited Time Only",
+				"heading_size": "h2",
+				"description": "Don’t miss your chance! Secure your gear now before the time runs out – these offers are only available for a limited period.",
+				"show_link": true,
+				"button_label": "Explore sale",
+				"button_style": "primary",
+				"button_link": "",
+				"button_arrow": true,
+				"content_alignment": "center",
+				"enable_image": true,
+				"image": "",
+				"overlay_opacity": 0,
+				"padding_top": "l",
+				"padding_bottom": "no-indent",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"blog-posts": {
+			"type": "blog-posts",
+			"settings": {
+				"blog": "news",
+				"color_scheme": "",
+				"animate_on_scroll": true,
+				"section_header_text": "Blog",
+				"section_header_size": "h3",
+				"show_read_all_button": true,
+				"read_all_button_label": "",
+				"button_style": "primary",
+				"button_arrow": true,
+				"slider_on_mobile": true,
+				"mobile_slider_layout_type": "visible_overflow",
+				"posts_per_row": 3,
+				"posts_count": 3,
+				"show_image": true,
+				"aspect_ratio": "square",
+				"object_fit": "cover",
+				"article_heading_font_family": "heading",
+				"article_heading_font_size": "h4",
+				"show_date": true,
+				"show_tags": true,
+				"show_author": true,
+				"show_excerpt": false,
+				"show_read_article_button": true,
+				"read_article_button_label": "",
+				"show_comments_count": false,
+				"padding_top": "l",
+				"padding_bottom": "no-indent",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"featured_item_bwHak7": {
+			"type": "featured-item",
+			"settings": {
+				"main_color_scheme": "",
+				"content_color_scheme": "",
+				"item_type": "article",
+				"article_item": "",
+				"collection_item": "",
+				"product_item": "",
+				"desktop_order": "content-first",
+				"heading_size": "h2",
+				"show_tags": false,
+				"show_vendor": false,
+				"additional_label": "Read article",
+				"content_alignment": "left",
+				"aspect_ratio": "adapt_to_image",
+				"image_size": "recommended",
+				"image_part_bg": "#fff0bb",
+				"overwrite_subheading": "Insights",
+				"overwrite_heading": "Ride Better with the Right Apparel",
+				"overwrite_description": "Get the latest insights on riding apparel, technology, and trends.",
+				"overwrite_url": "",
+				"padding_top": "l",
+				"padding_bottom": "no-indent",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"multicolumn_RiGN6T": {
+			"type": "multicolumn",
+			"blocks": {
+				"column_e8tqKz": {
+					"type": "column",
+					"settings": {
+						"heading": "Crash Replacement",
+						"image": "",
+						"image_2": "",
+						"image_width": "icon",
+						"image_ratio": "square",
+						"object_fit": "cover",
+						"enable_img_border_radius": true,
+						"add_separator": false,
+						"text": "Ride with confidence knowing our crash replacement service has you covered, helping you get back on track without worry.",
+						"show_button": true,
+						"button_label": "Learn more",
+						"button_link": "",
+						"button_style": "primary",
+						"button_arrow": true
+					}
+				},
+				"column_Cn6647": {
+					"type": "column",
+					"settings": {
+						"heading": "Classic Guarantee",
+						"image": "",
+						"image_2": "",
+						"image_width": "icon",
+						"image_ratio": "square",
+						"object_fit": "cover",
+						"enable_img_border_radius": true,
+						"add_separator": false,
+						"text": "Our classic guarantee ensures you’re investing in top-quality gear built to last, offering reliability for every adventure.",
+						"show_button": true,
+						"button_label": "Learn more",
+						"button_link": "",
+						"button_style": "primary",
+						"button_arrow": true
+					}
+				},
+				"column_9wNpLB": {
+					"type": "column",
+					"settings": {
+						"heading": "Free Returns",
+						"image": "",
+						"image_2": "",
+						"image_width": "icon",
+						"image_ratio": "square",
+						"object_fit": "cover",
+						"enable_img_border_radius": true,
+						"add_separator": false,
+						"text": "Enjoy a seamless shopping experience with free returns, making it easy to find the perfect fit every time.",
+						"show_button": true,
+						"button_label": "Learn more",
+						"button_link": "",
+						"button_style": "primary",
+						"button_arrow": true
+					}
+				}
+			},
+			"block_order": ["column_e8tqKz", "column_Cn6647", "column_9wNpLB"],
+			"settings": {
+				"color_scheme": "",
+				"subheading": "",
+				"heading": "",
+				"heading_size": "h2",
+				"description": "",
+				"text_align": "center",
+				"multicolumn_to_show": 3,
+				"column_gap": "1.6",
+				"row_gap": "3.2",
+				"swipe_on_desktop": false,
+				"swipe_on_mobile": false,
+				"mobile_slider_layout_type": "visible_overflow",
+				"card_heading_size": "h4",
+				"card_heading_font": "body",
+				"column_color_scheme": "",
+				"card_bg_color": "primary",
+				"card_text_color": "secondary",
+				"card_text_size": "small",
+				"enable_column_border": false,
+				"column_padding": "0",
+				"column_aspect_ratio": "adapt",
+				"content_horizontal_alignment": "center",
+				"content_vertical_alignment": "top",
+				"column_width": "recommended",
+				"padding_top": "l",
+				"padding_bottom": "no-indent",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"social-media": {
+			"type": "social-media",
+			"blocks": {
+				"block_1": {
+					"type": "image",
+					"settings": {}
+				},
+				"block_2": {
+					"type": "image",
+          "settings": {}
+				},
+				"block_3": {
+					"type": "image",
+          "settings": {}
+				},
+				"block_4": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/20.webp"
+					}
+				},
+				"image_GqULAe": {
+					"type": "image",
+          "settings": {}
+				},
+				"image_AjQf4Q": {
+					"type": "image",
+					"settings": {}
+				}
+			},
+			"block_order": [
+				"block_1",
+				"block_2",
+				"block_3",
+				"block_4",
+				"image_GqULAe",
+				"image_AjQf4Q"
+			],
+			"settings": {
+				"color_scheme": "",
+				"layout": "slider-bottom",
+				"animate_on_scroll": true,
+				"subheading": "",
+				"heading": "",
+				"heading_size": "h2",
+				"description": "",
+				"text_align": "center",
+				"aspect_ratio": "square",
+				"slides_per_view": 4,
+				"object_fit": "cover",
+				"slider_speed": 15,
+				"slider_stop_on_hover": true,
+				"main_text": "Follow us on Instagram <a href=\"\" target=\"_blank\" title=\"\">@san.francisco</a>",
+				"link_arrow": true,
+				"main_text_font": "body",
+				"main_text_size": "h3",
+				"padding_top": "l",
+				"padding_bottom": "l",
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		}
+	},
+	"order": [
+		"slideshow",
+		"products-tabs",
+		"collections-list",
+		"media-banner",
+		"product_card_slider_jLRReU",
+		"ticker-banner",
+		"countdown_Qh4mCy",
+		"blog-posts",
+		"featured_item_bwHak7",
+		"multicolumn_RiGN6T",
+		"social-media"
+	]
+}

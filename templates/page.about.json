@@ -1,0 +1,270 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "images-with-content": {
+      "type": "images-with-content",
+      "settings": {
+        "color_scheme": "",
+        "subheading": "About us",
+        "heading": "Passionate about quality and driven by innovation, we design tech that not only meets your needs but enriches your lifestyle.",
+        "heading_size": "h2",
+        "description": "",
+        "text_align": "center",
+        "image__1": "",
+        "image__2": "",
+        "images_container_aspect_ratio": "adapt",
+        "object_fit": "cover",
+        "inner_subheading": "",
+        "inner_heading": "Crafted for excellence, designed for you",
+        "inner_heading_size": "h2",
+        "inner_text__1": "<p>We’re dedicated to excellence in every detail, using durable materials and the latest tech to ensure our products perform and last. Crafted with quality in mind, each piece is built to elevate your experience.</p>",
+        "inner_text__2": "<p>Our designs are made to fit seamlessly into your life, enhancing your everyday moments. From home to workspace, we create tech that’s as reliable as it is effortless to use.</p>",
+        "padding_top": "xs",
+        "padding_bottom": "no-indent",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "steps": {
+      "type": "steps",
+      "blocks": {
+        "block_1": {
+          "type": "step",
+          "settings": {
+            "step_heading": "Vision",
+            "step_description": "Driven by a commitment to quality and innovation, we set out to create tech that elevates everyday life.",
+            "content_image": "",
+            "content_image_ratio": "2/1",
+            "content_heading": "Innovating your everyday tech experience",
+            "content_description": "<p>At our core, we’re dedicated to creating tech that enhances the quality of your everyday life. By focusing on innovation, we aim to make technology more accessible, reliable, and functional, turning your daily routines into effortless experiences. Every product is thoughtfully designed to adapt to your needs, seamlessly blending into any environment.</p><p>We believe that better technology leads to a better life. Our mission is to deliver tools that not only perform but also enrich your lifestyle, offering durability and ease of use in every detail. Whether at home, work, or on the go, we strive to bring you products that simplify and elevate your day-to-day.</p>",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "block_2": {
+          "type": "step",
+          "settings": {
+            "step_heading": "Journey",
+            "step_description": "From humble beginnings to a trusted name, our path has been guided by passion and dedication to excellence.",
+            "content_image": "",
+            "content_image_ratio": "2/1",
+            "content_heading": "From Passion to Excellence: Our Journey",
+            "content_description": "<p>Our journey began with a simple idea: to create products that blend innovation with quality. Over the years, we've grown from humble beginnings into a trusted name in tech, driven by passion and a relentless pursuit of excellence.</p><p>Every step we've taken has been guided by a commitment to perfecting our craft and ensuring that our products meet the highest standards. Today, we continue to build on our foundation, always striving to improve and evolve, staying true to the values that have shaped our success.</p>",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "block_3": {
+          "type": "step",
+          "settings": {
+            "step_heading": "Promise",
+            "step_description": "We’re dedicated to delivering products that combine reliability, performance, and style you can trust.",
+            "content_image": "",
+            "content_image_ratio": "2/1",
+            "content_heading": "Delivering Trust: Our Promise to You",
+            "content_description": "<p>We’re committed to bringing you products that go beyond just performance. Our promise is to deliver tech that combines reliability, cutting-edge performance, and stylish design—tools you can trust for every part of your life. </p><p>Whether it's enhancing your daily routines, keeping up with your active lifestyle, or providing long-lasting durability, we ensure that each product meets your highest expectations. With us, you can always rely on technology that works seamlessly, looks great, and lasts for years to come.</p>",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_1",
+        "block_2",
+        "block_3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "Our Story",
+        "heading_size": "h3",
+        "description": "",
+        "text_align": "left",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "block_1": {
+          "type": "column",
+          "settings": {
+            "heading": "500,000+\nCustomers",
+            "image_width": "icon",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "enable_img_border_radius": true,
+            "add_separator": false,
+            "text": "Trusted by over half a million customers who rely on our products for quality and performance.",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true
+          }
+        },
+        "block_2": {
+          "type": "column",
+          "settings": {
+            "heading": "60+\nCountries",
+            "image_width": "icon",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "enable_img_border_radius": true,
+            "add_separator": false,
+            "text": "Reaching customers in more than 60 countries with tech solutions built to enhance daily life.",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true
+          }
+        },
+        "block_3": {
+          "type": "column",
+          "settings": {
+            "heading": "1,000+\nReviews",
+            "image_width": "icon",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "enable_img_border_radius": true,
+            "add_separator": false,
+            "text": "With over 1,000 positive reviews, our customers affirm our commitment to quality and reliability.",
+            "show_button": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "block_1",
+        "block_2",
+        "block_3"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_align": "center",
+        "multicolumn_to_show": 3,
+        "column_gap": "1.6",
+        "row_gap": "3.2",
+        "swipe_on_desktop": false,
+        "swipe_on_mobile": false,
+        "mobile_slider_layout_type": "visible_overflow",
+        "card_heading_size": "h2",
+        "card_heading_font": "heading",
+        "column_color_scheme": "background-2",
+        "card_bg_color": "primary",
+        "card_text_color": "secondary",
+        "card_text_size": "normal",
+        "enable_column_border": false,
+        "column_padding": "4",
+        "column_aspect_ratio": "1/1",
+        "content_horizontal_alignment": "left",
+        "content_vertical_alignment": "justify",
+        "column_width": "recommended",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "color_scheme": "",
+        "color_scheme_content": "",
+        "section_gap": "small",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_align": "right",
+        "image": "",
+        "img_position": "left",
+        "aspect_ratio": "16/9",
+        "object_fit": "cover",
+        "inner_subheading": "Careers",
+        "inner_heading": "Help us invent the future",
+        "inner_heading_size": "h2",
+        "inner_text": "Join our team to help drive innovation and create the tech solutions that will shape the future, with exciting career opportunities at every level.",
+        "inner_content_align": "center",
+        "vertical_inner_content_align": "center",
+        "show_button": true,
+        "button_label": "Learn more",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "show_button_2": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_2": "secondary",
+        "button_arrow_2": true,
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "",
+        "color_scheme": "",
+        "animate_on_scroll": true,
+        "section_header_text": "Blog",
+        "section_header_size": "h3",
+        "show_read_all_button": true,
+        "read_all_button_label": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "slider_on_mobile": false,
+        "mobile_slider_layout_type": "visible_overflow",
+        "posts_per_row": 3,
+        "posts_count": 3,
+        "show_image": true,
+        "aspect_ratio": "square",
+        "object_fit": "cover",
+        "article_heading_font_family": "heading",
+        "article_heading_font_size": "h4",
+        "show_date": true,
+        "show_tags": true,
+        "show_author": true,
+        "show_excerpt": true,
+        "show_read_article_button": true,
+        "read_article_button_label": "",
+        "show_comments_count": false,
+        "padding_top": "no-indent",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "images-with-content",
+    "steps",
+    "multicolumn",
+    "image-with-text",
+    "blog-posts"
+  ]
+}
