@@ -1,0 +1,143 @@
+{% assign is_mobile = is_mobile | default: false %}
+
+{%- if shop.customer_accounts_enabled and section.settings.enable_account_btn -%}
+  <div class="header__account {% if is_mobile == true %}header__account--mobile{% endif %}">
+    {% if section.settings.enable_account_modal_component %}
+      <shopify-account
+        menu="{{ section.settings.customer_account_menu | default: "customer-account-main-menu" }}"
+        style="display: flex; align-items: center;"
+      >
+        <div slot="signed-out-avatar">
+          {% if is_mobile != true %}
+            <div class="header__icon header__icon--account focus-inset modal__toggle">
+              {% render 'icon-account' %}
+            </div>
+          {% else %}
+            <div
+              class="button button--primary menu-drawer__account focus-inset"
+            >
+              <div class="button__content">
+                <span class="button__label" data-label="{{ 'customer.log_in' | t }}">
+                  {{ 'customer.log_in' | t }}
+                </span>
+              </div>
+              <span class="animated-button-circle"></span>
+            </div>
+          {% endif %}
+        </div>
+      </shopify-account>
+    {%- else -%}
+      {% liquid
+        if customer
+          assign btn_link = routes.account_profile_url
+          assign btn_aria = 'customer.account_fallback' | t
+        else
+          assign btn_link = routes.account_login_url
+          assign btn_aria = 'customer.log_in' | t
+        endif
+      %}
+
+      {% if is_mobile != true %}
+        <details-disclosure>
+          <details>
+            <summary
+              class="header__icon header__icon--account focus-inset modal__toggle"
+              aria-haspopup="dialog"
+              role="button"
+            >
+              {% render 'icon-account' %}
+            </summary>
+            <div class="header__account-modal modal__toggle color-background-1" role="dialog" aria-modal="true">
+              {%- if customer -%}
+                <div class="header__account-account">
+                  {% if customer.name != blank %}
+                    <div class="header__account-name">
+                      {{- customer.name -}}
+                    </div>
+                  {%- endif -%}
+                  <ul class="header__account-body">
+                    <li>
+                      <a href="{{ routes.account_profile_url }}">
+                        {{- 'customer.account_fallback' | t -}}
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    class="header__account-logout button button--primary focus-inset"
+                    href="{{ routes.account_logout_url }}"
+                  >
+                    <div class="button__content">
+                      <span class="button__label" data-label="{{ 'customer.log_out' | t }}">
+                        {{ 'customer.log_out' | t }}
+                      </span>
+                    </div>
+                    <span class="animated-button-circle"></span>
+                  </a>
+                </div>
+              {%- else -%}
+                <a
+                  href="{{ btn_link }}"
+                  aria-label="{{ btn_aria }}"
+                  class="button button--primary header__account-login focus-inset"
+                >
+                  <div class="button__content">
+                    <span class="button__label" data-label="{{ 'customer.log_in' | t }}">
+                      {{ 'customer.log_in' | t }}
+                    </span>
+                  </div>
+                  <span class="animated-button-circle"></span>
+                </a>
+              {%- endif -%}
+            </div>
+          </details>
+        </details-disclosure>
+      {% else %}
+        {%- if customer -%}
+          <div class="menu-drawer__utility-account">
+            {%- if customer.name != blank -%}
+              <span class="menu-drawer__utility-name body-large">
+                {{- customer.name -}}
+              </span>
+            {%- endif -%}
+
+            <ul class="menu-drawer__utility-account-body">
+              <li class="menu-drawer__utility-account-link">
+                <a href="{{ routes.account_profile_url }}">
+                  {{- 'customer.account_fallback' | t -}}
+                </a>
+              </li>
+            </ul>
+
+            <a
+              class="menu-drawer__utility-logout button button--transparent focus-inset"
+              href="{{ routes.account_logout_url }}"
+            >
+              <div class="button__content">
+                <span class="button__label" data-label="{{- 'customer.log_out' | t -}}">
+                  {{- 'customer.log_out' | t -}}
+                </span>
+              </div>
+              <span class="animated-button-circle"></span>
+            </a>
+          </div>
+        {%- else -%}
+          <a
+            href="{{ btn_link }}"
+            aria-label="{{ btn_aria }}"
+            class="button button--primary menu-drawer__account focus-inset"
+          >
+            <div class="button__content">
+              <span class="button__label" data-label="{{ 'customer.log_in' | t }}">
+                {{ 'customer.log_in' | t }}
+              </span>
+            </div>
+            <span class="animated-button-circle"></span>
+          </a>
+        {%- endif -%}
+      {% endif %}
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+
+

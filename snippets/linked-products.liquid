@@ -1,0 +1,114 @@
+{% doc %}
+  Linked product switcher (same collection / alternate products via metafields).
+
+  Expects `product.metafields.custom.linked_products` as a list of product references.
+  Optional per-product metafields: `linked_product_color`, `linked_product_option`.
+
+  When both theme settings (color + option) are enabled, both blocks render.
+  Markup mirrors the variant picker (`product-parameters`, `product-form__controls`, etc.).
+
+  @param {object} product - Current product
+  @param {object} block - Parent section block (variant_picker), for settings + theme editor attributes
+{% enddoc %}
+
+{%- liquid
+  assign linked_products = product.metafields.custom.linked_products.value
+  assign show_color = block.settings.enable_linked_products_color
+  assign show_option = block.settings.enable_linked_products_option
+  assign picker_type = block.settings.picker_type | default: 'button'
+-%}
+
+{%- if linked_products != blank and linked_products.size > 0 -%}
+  <div
+    class="product-parameters product-parameters--{{ picker_type }} linked-products"
+    {{ block.shopify_attributes }}
+  >
+    {%- if show_color -%}
+      <fieldset class="product-form__controls product-form__controls--colors">
+        <legend class="product-form__group-name">
+          <div class="product-form__group-name__wrapper">
+            {{- 'general.color' | t -}}
+          </div>
+        </legend>
+        <div class="product-form__controls-group">
+          {%- assign cur_color = product.metafields.custom.linked_product_color.value | strip -%}
+          <a
+            href="{{ product.url }}"
+            class="color-swatch{% if block.settings.enable_default_image and cur_color == blank and product.featured_image %} variant-swatch variant-swatch--square{% endif %}"
+            aria-current="page"
+            aria-label="{{ product.title | escape }}"
+            {% if cur_color != blank %}
+              style="--swatch-color: {{ cur_color }};"
+            {% elsif block.settings.enable_default_image and product.featured_image %}
+              style="--swatch-color: url({{ product.featured_image | image_url: width: 120 }});"
+            {% else %}
+              style="--swatch-color: #000000;"
+            {% endif %}
+          >
+            <span class="visually-hidden">{{ product.title | escape }}</span>
+          </a>
+          {%- for linked_product in linked_products -%}
+            {%- if linked_product.id == product.id -%}
+              {%- continue -%}
+            {%- endif -%}
+            {%- assign lp_color = linked_product.metafields.custom.linked_product_color.value | strip -%}
+            <a
+              href="{{ linked_product.url }}"
+              class="color-swatch{% if block.settings.enable_default_image and lp_color == blank and linked_product.featured_image %} variant-swatch variant-swatch--square{% endif %}"
+              aria-label="{{ linked_product.title | escape }}"
+              {% if lp_color != blank %}
+                style="--swatch-color: {{ lp_color }};"
+              {% elsif block.settings.enable_default_image and linked_product.featured_image %}
+                style="--swatch-color: url({{ linked_product.featured_image | image_url: width: 120 }});"
+              {% else %}
+                style="--swatch-color: #000000;"
+              {% endif %}
+            >
+              <span class="visually-hidden">{{ linked_product.title | escape }}</span>
+            </a>
+          {%- endfor -%}
+        </div>
+      </fieldset>
+    {%- endif -%}
+
+    {%- if show_option and product.metafields.custom.linked_product_option.value != blank -%}
+      <fieldset class="product-form__controls">
+        {%- if block.settings.linked_product_option_title != blank -%}
+          <legend class="product-form__group-name">
+            <div class="product-form__group-name__wrapper">
+              {{- block.settings.linked_product_option_title -}}
+            </div>
+          </legend>
+        {%- else -%}
+          <legend class="visually-hidden">{{ 'accessibility.linked_products_option' | t }}</legend>
+        {%- endif -%}
+        <div class="product-form__controls-group">
+          <a
+            href="{{ product.url }}"
+            class="linked-products__pill"
+            aria-current="page"
+            aria-label="{{ product.title | escape }}"
+          >
+            {{- product.metafields.custom.linked_product_option.value | escape -}}
+          </a>
+          {%- for linked_product in linked_products -%}
+            {%- if linked_product.id == product.id -%}
+              {%- continue -%}
+            {%- endif -%}
+            {%- assign lp_opt = linked_product.metafields.custom.linked_product_option.value -%}
+            {%- if lp_opt == blank -%}
+              {%- continue -%}
+            {%- endif -%}
+            <a
+              href="{{ linked_product.url }}"
+              class="linked-products__pill"
+              aria-label="{{ linked_product.title | escape }}"
+            >
+              {{- lp_opt | escape -}}
+            </a>
+          {%- endfor -%}
+        </div>
+      </fieldset>
+    {%- endif -%}
+  </div>
+{%- endif -%}
