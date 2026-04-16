@@ -1,0 +1,31 @@
+{
+  "type": "header",
+  "name": "t:sections.header.settings.header-group.label",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "height": 34,
+        "height_mobile": 34,
+        "color_scheme": "",
+        "text": "Here can be a short promotional message"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "center-logo",
+        "logo_width": 200,
+        "menu": "main-menu",
+        "sticky_header_type": "on-scroll-up",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "enable_social": false,
+        "enable_search": true,
+        "search_menu": "popular-searches",
+        "enable_border": false
+      }
+    }
+  },
+  "order": ["announcement-bar", "header"]
+}
